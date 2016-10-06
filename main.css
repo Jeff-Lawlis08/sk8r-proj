@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  background-image: url("assets/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  margin: 0 15%; }
+
+header .subscribe {
+  display: inline-block;
+  font-size: 13px;
+  padding-bottom: 1rem; }
+  header .subscribe i {
+    font-size: 5px;
+    vertical-align: middle; }
+header .socDots {
+  display: inline-block;
+  font-size: 5px;
+  width: 1%;
+  float: right;
+  padding-right: 2.5%; }
+header .socMedia {
+  float: right;
+  font-size: 20px; }
+header .sk8r-options::after {
+  content: '';
+  display: block;
+  clear: both; }
+header .topButtons {
+  width: 25%;
+  font-size: 8px;
+  margin: 0;
+  padding: 0;
+  float: left; }
+header .splash {
+  position: relative; }
+  header .splash .splash-backdrop {
+    width: 100%; }
+  header .splash .logo {
+    width: 33%;
+    position: absolute;
+    top: 4rem;
+    left: 5%; }
+
+/*# sourceMappingURL=main.css.map */
