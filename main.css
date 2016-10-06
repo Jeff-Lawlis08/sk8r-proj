@@ -14,7 +14,8 @@ body {
 header .subscribe {
   display: inline-block;
   font-size: 13px;
-  padding-bottom: 1rem; }
+  padding-bottom: 1rem;
+  color: white; }
   header .subscribe i {
     font-size: 5px;
     vertical-align: middle; }
@@ -23,7 +24,8 @@ header .socDots {
   font-size: 5px;
   width: 1%;
   float: right;
-  padding-right: 2.5%; }
+  padding-right: 2.5%;
+  color: white; }
 header .socMedia {
   float: right;
   font-size: 20px; }
@@ -36,15 +38,53 @@ header .topButtons {
   font-size: 8px;
   margin: 0;
   padding: 0;
-  float: left; }
+  float: left;
+  color: white;
+  background-color: #B4292E; }
 header .splash {
   position: relative; }
   header .splash .splash-backdrop {
-    width: 100%; }
+    width: 100%;
+    border: 3px solid white; }
   header .splash .logo {
     width: 33%;
     position: absolute;
     top: 4rem;
     left: 5%; }
+header .dots {
+  text-align: center;
+  color: white; }
+
+.columns {
+  max-width: 12;
+  margin-left: auto;
+  margin-right: auto; }
+  .columns::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .columns article {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%;
+    background: white;
+    padding: 1rem;
+    font-size: 10px;
+    height: 8rem;
+    position: relative; }
+    .columns article:last-child {
+      margin-right: 0; }
+    .columns article h5 {
+      padding: 0;
+      margin-bottom: .2rem; }
+    .columns article span {
+      font-size: 5px;
+      display: none; }
+    .columns article p {
+      display: none; }
+    .columns article a {
+      position: absolute;
+      bottom: 1rem; }
 
 /*# sourceMappingURL=main.css.map */

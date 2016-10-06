@@ -1,0 +1,29 @@
+.columns {
+  @include outer-container(12);
+
+  article {
+    @include span-columns (4);
+    background: white;
+    padding: 1rem;
+    font-size: 10px;
+    height: 8rem;
+    position: relative;
+
+    h5 {
+      padding: 0;
+      margin-bottom: .2rem;
+    }
+
+      span {
+        font-size: 5px;
+        display: none;
+      }
+      p {
+        display: none;
+      }
+      a {
+        position: absolute;
+        bottom: 1rem;
+      }
+  }
+}

@@ -3,6 +3,7 @@ header {
     display: inline-block;
     font-size: 13px;
     padding-bottom: 1rem;
+    color: white;
 
     i {
       font-size: 5px;
@@ -16,6 +17,7 @@ header {
     width: 1%;
     float: right;
     padding-right: 2.5%;
+    color: white;
   }
 
   .socMedia {
@@ -34,14 +36,17 @@ header {
     margin: 0;
     padding: 0;
     float: left;
+    color: white;
+    background-color: #B4292E;
   }
 
   .splash {
   position: relative;
 
+
     .splash-backdrop {
       width: 100%;
-
+      border: 3px solid white;
     }
 
     .logo {
@@ -53,4 +58,9 @@ header {
     }
 
   }
+    .dots {
+      text-align: center;
+      color: white;
+    }
+
 }
