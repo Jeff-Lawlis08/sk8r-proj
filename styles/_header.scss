@@ -1,0 +1,56 @@
+header {
+  .subscribe {
+    display: inline-block;
+    font-size: 13px;
+    padding-bottom: 1rem;
+
+    i {
+      font-size: 5px;
+      vertical-align: middle;
+    }
+  }
+
+  .socDots {
+    display: inline-block;
+    font-size: 5px;
+    width: 1%;
+    float: right;
+    padding-right: 2.5%;
+  }
+
+  .socMedia {
+    float: right;
+    font-size: 20px;
+  }
+  .sk8r-options::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .topButtons {
+    width: 25%;
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+
+  .splash {
+  position: relative;
+
+    .splash-backdrop {
+      width: 100%;
+
+    }
+
+    .logo {
+      width: 33%;
+      position: absolute;
+      top: 4rem;
+      left: 5%;
+
+    }
+
+  }
+}
