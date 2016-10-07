@@ -4,11 +4,21 @@ footer {
 
   form {
     padding: 0;
+    text-align: center;
+    margin-right: 1rem;
+
+    textarea.msg {
+      width: 10.7rem;
+    }
 
     div {
       margin-top: 1rem;
 
 
+    }
+    .button button {
+      color: white;
+      background-color: #B4292E;
     }
   }
 }

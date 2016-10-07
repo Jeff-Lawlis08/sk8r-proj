@@ -1,0 +1,8 @@
+.boards {
+  @include outer-container();
+  background-color: white;
+  margin-top: 2rem;
+  img {
+    @include span-columns(1 of 10);
+  }
+}

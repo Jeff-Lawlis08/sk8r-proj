@@ -87,12 +87,72 @@ header .dots {
       position: absolute;
       bottom: 1rem; }
 
+.people {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem; }
+  .people::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .people .sk8rs {
+    border: 3px solid white; }
+    .people .sk8rs img {
+      width: 100%; }
+  .people .guys1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    .people .guys1:last-child {
+      margin-right: 0; }
+  .people .guy3 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    .people .guy3:last-child {
+      margin-right: 0; }
+  .people .guy4 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%; }
+    .people .guy4:last-child {
+      margin-right: 0; }
+
 footer {
   background-color: white;
   text-align: center; }
   footer form {
-    padding: 0; }
+    padding: 0;
+    text-align: center;
+    margin-right: 1rem; }
+    footer form textarea.msg {
+      width: 10.7rem; }
     footer form div {
       margin-top: 1rem; }
+    footer form .button button {
+      color: white;
+      background-color: #B4292E; }
+
+.boards {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-top: 2rem; }
+  .boards::after {
+    clear: both;
+    content: "";
+    display: block; }
+  .boards img {
+    float: left;
+    display: block;
+    margin-right: 2.84259%;
+    width: 7.44167%; }
+    .boards img:last-child {
+      margin-right: 0; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,22 @@
+.people {
+  @include outer-container();
+  margin-top: 2rem;
+
+  .sk8rs {
+    border: 3px solid white;
+
+    img {
+      width: 100%;
+    }
+  }
+  .guys1 {
+    @include span-columns(4 of 12);
+
+  }
+  .guy3{
+    @include span-columns(4 of 12);
+  }
+  .guy4 {
+    @include span-columns(8 of 12);
+  }
+}
