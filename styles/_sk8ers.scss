@@ -3,7 +3,7 @@
   margin-top: 2rem;
 
   .sk8rs {
-    border: 3px solid white;
+
     position: relative;
 
     span {
@@ -15,8 +15,14 @@
 
     img {
       width: 100%;
+      border: 3px solid white;
     }
   }
+
+
+
+}
+@media(min-width: 480px) {
   .guys1 {
     @include span-columns(4 of 12);
 
@@ -26,7 +32,6 @@
   }
   .guy4 {
     @include span-columns(8 of 12);
+
   }
-
-
 }

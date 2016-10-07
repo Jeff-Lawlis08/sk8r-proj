@@ -8,9 +8,11 @@ body {
   background-image: url("assets/bg.jpg");
   background-position: center;
   background-size: cover;
-  background-blend-mode: overlay;
-  margin: 0 15%; }
+  background-blend-mode: overlay; }
 
+@media (min-width: 480px) {
+  body {
+    margin: 0 15%; } }
 header .subscribe {
   display: inline-block;
   font-size: 13px;
@@ -104,7 +106,6 @@ header .dots {
     content: "";
     display: block; }
   .people .sk8rs {
-    border: 3px solid white;
     position: relative; }
     .people .sk8rs span {
       color: white;
@@ -112,29 +113,33 @@ header .dots {
       top: 3rem;
       right: 10%; }
     .people .sk8rs img {
-      width: 100%; }
-  .people .guys1 {
+      width: 100%;
+      border: 3px solid white; }
+
+@media (min-width: 480px) {
+  .guys1 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%; }
-    .people .guys1:last-child {
+    .guys1:last-child {
       margin-right: 0; }
-  .people .guy3 {
+
+  .guy3 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%; }
-    .people .guy3:last-child {
+    .guy3:last-child {
       margin-right: 0; }
-  .people .guy4 {
+
+  .guy4 {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 65.88078%; }
-    .people .guy4:last-child {
-      margin-right: 0; }
-
+    .guy4:last-child {
+      margin-right: 0; } }
 footer {
   background-color: white;
   text-align: center; }
@@ -183,7 +188,8 @@ footer {
   margin-left: auto;
   margin-right: auto;
   background-color: white;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  padding: .5rem; }
   .boards::after {
     clear: both;
     content: "";
