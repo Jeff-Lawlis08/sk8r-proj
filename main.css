@@ -87,4 +87,12 @@ header .dots {
       position: absolute;
       bottom: 1rem; }
 
+footer {
+  background-color: white;
+  text-align: center; }
+  footer form {
+    padding: 0; }
+    footer form div {
+      margin-top: 1rem; }
+
 /*# sourceMappingURL=main.css.map */
