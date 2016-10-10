@@ -2,12 +2,11 @@ body {
   background-image: url('assets/bg.jpg');
   background-position: center;
   background-size: cover;
-  background-blend-mode: overlay;
 
 
 }
 
-@media (min-width: 480px) {
+@media (min-width: 650px) {
   body {
     margin: 0 15%;
 }

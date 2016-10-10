@@ -23,6 +23,19 @@ header {
   .socMedia {
     float: right;
     font-size: 20px;
+
+    .fa-facebook-square {
+      color: #4862A3;
+    }
+    .fa-twitter-square {
+      color: #55ACEE;
+    }
+    .fa-rss-square {
+      color: #F99A39;
+    }
+    .fa-youtube-square {
+      color: #B2382D;
+    }
   }
   .sk8r-options::after {
     content: '';

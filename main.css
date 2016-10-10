@@ -7,10 +7,9 @@ html {
 body {
   background-image: url("assets/bg.jpg");
   background-position: center;
-  background-size: cover;
-  background-blend-mode: overlay; }
+  background-size: cover; }
 
-@media (min-width: 480px) {
+@media (min-width: 650px) {
   body {
     margin: 0 15%; } }
 header .subscribe {
@@ -31,6 +30,14 @@ header .socDots {
 header .socMedia {
   float: right;
   font-size: 20px; }
+  header .socMedia .fa-facebook-square {
+    color: #4862A3; }
+  header .socMedia .fa-twitter-square {
+    color: #55ACEE; }
+  header .socMedia .fa-rss-square {
+    color: #F99A39; }
+  header .socMedia .fa-youtube-square {
+    color: #B2382D; }
 header .sk8r-options::after {
   content: '';
   display: block;
@@ -71,7 +78,7 @@ header .dots {
     margin-right: 2.35765%;
     width: 31.76157%;
     background: white;
-    padding: 1rem;
+    padding: 1rem 1rem 3rem 1rem;
     font-size: 10px;
     height: 8rem;
     position: relative; }
@@ -95,7 +102,8 @@ header .dots {
     .columns article span {
       display: inline; }
     .columns article p {
-      display: block; } }
+      display: block;
+      overflow: scroll; } }
 .people {
   max-width: 1200px;
   margin-left: auto;
@@ -111,17 +119,24 @@ header .dots {
       color: white;
       position: absolute;
       top: 3rem;
-      right: 10%; }
+      right: 10%;
+      left: 10%;
+      bottom: 3rem; }
     .people .sk8rs img {
       width: 100%;
       border: 3px solid white; }
 
-@media (min-width: 480px) {
+@media (min-width: 650px) {
+  .people {
+    height: 14rem;
+    position: relative; }
+
   .guys1 {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 31.76157%; }
+    width: 31.76157%;
+    height: 6rem; }
     .guys1:last-child {
       margin-right: 0; }
 
@@ -129,17 +144,26 @@ header .dots {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 31.76157%; }
+    width: 31.76157%;
+    position: absolute;
+    height: 14rem;
+    top: -6rem; }
     .guy3:last-child {
       margin-right: 0; }
+    .guy3 img {
+      height: 111%; }
 
   .guy4 {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 65.88078%; }
+    width: 65.88078%;
+    height: 6.5rem;
+    margin-top: 3rem; }
     .guy4:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+    .guy4 img {
+      height: 100%; } }
 footer {
   background-color: white;
   text-align: center; }
@@ -153,7 +177,7 @@ footer {
       width: 10.7rem; }
     footer form div {
       margin-top: 1rem; }
-    footer form .button button {
+    footer form .submit button {
       color: white;
       background-color: #B4292E; }
 
