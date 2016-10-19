@@ -1,4 +1,6 @@
-document.queryselector('.button').onclick=function() {
-  var response="Thanks for the Info!";
-  document.queryselector('textarea').value=response;
-};
+var button = document.querySelector('.button');
+button.addEventListener('click', function(){
+  alert("Thanks for the Info!");
+  
+}
+);

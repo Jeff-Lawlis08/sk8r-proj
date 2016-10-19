@@ -108,62 +108,90 @@ header .dots {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  width: 100%; }
   .people::after {
     clear: both;
     content: "";
     display: block; }
   .people .sk8rs {
-    position: relative; }
-    .people .sk8rs span {
-      color: white;
-      position: absolute;
-      top: 3rem;
-      right: 10%;
-      left: 10%;
-      bottom: 3rem; }
-    .people .sk8rs img {
+    width: 100%;
+    position: relative;
+    border: 3px solid white;
+    margin-top: 1rem;
+    height: 20rem; }
+    .people .sk8rs:first-child {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
       width: 100%;
-      border: 3px solid white; }
+      background-image: url("assets/sk8er-4.png");
+      background-position: center;
+      background-size: cover; }
+      .people .sk8rs:first-child:last-child {
+        margin-right: 0; }
+    .people .sk8rs:nth-child(2) {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      background-image: url("assets/sk8er-3.png");
+      background-position: center;
+      background-size: cover; }
+      .people .sk8rs:nth-child(2):last-child {
+        margin-right: 0; }
+    .people .sk8rs:nth-child(4) {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      background-image: url("assets/sk8er-2.png");
+      background-position: center;
+      background-size: cover; }
+      .people .sk8rs:nth-child(4):last-child {
+        margin-right: 0; }
+    .people .sk8rs:nth-child(3) {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      background-image: url("assets/sk8er-1.png");
+      background-position: center;
+      background-size: cover; }
+      .people .sk8rs:nth-child(3):last-child {
+        margin-right: 0; }
+    .people .sk8rs span {
+      color: white; }
 
 @media (min-width: 650px) {
-  .people {
-    height: 14rem;
-    position: relative; }
-
-  .guys1 {
+  .people:first-child {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 31.76157%;
-    height: 6rem; }
-    .guys1:last-child {
+    width: 31.76157%; }
+    .people:first-child:last-child {
       margin-right: 0; }
-
-  .guy3 {
+  .people:nth-child(2) {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 31.76157%;
-    position: absolute;
-    height: 14rem;
-    top: -6rem; }
-    .guy3:last-child {
+    width: 31.76157%; }
+    .people:nth-child(2):last-child {
       margin-right: 0; }
-    .guy3 img {
-      height: 111%; }
-
-  .guy4 {
+  .people:nth-child(4) {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 65.88078%;
-    height: 6.5rem;
-    margin-top: 3rem; }
-    .guy4:last-child {
+    width: 31.76157%; }
+    .people:nth-child(4):last-child {
       margin-right: 0; }
-    .guy4 img {
-      height: 100%; } }
+  .people:nth-child(3) {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%; }
+    .people:nth-child(3):last-child {
+      margin-right: 0; } }
 footer {
   background-color: white;
   text-align: center; }
